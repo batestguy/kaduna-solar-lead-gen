@@ -5,6 +5,10 @@ Brand: **Sol Searching** · Data: OpenStreetMap (ODbL) · Runtime: Streamlit (of
 This repo is the worked example of the global skill `streamlit-lead-gen`
 (`C:\Users\TOSHIBA\.claude\skills\streamlit-lead-gen\SKILL.md`). Changes to this
 app's data workflow or page structure should be mirrored into that skill.
+App-specific maintenance rules live in the local skill `kaduna-solar-intel`
+(`.opencode/skills/kaduna-solar-intel/SKILL.md`); deployment follows the global
+`streamlit-client-release` skill (`C:\Users\TOSHIBA\.claude\skills\
+streamlit-client-release\SKILL.md`) — see `DEPLOYMENT.md`.
 
 ## Stages
 

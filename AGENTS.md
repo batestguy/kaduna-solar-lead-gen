@@ -13,6 +13,12 @@ streamlit-lead-gen\SKILL.md`). When building a similar lead-gen app, load that
 skill; this repo is its worked example. If this app changes its data workflow or
 page structure, update the skill to match.
 
+App-specific maintenance rules live in the **local skill** `kaduna-solar-intel`
+(`.opencode/skills/kaduna-solar-intel/SKILL.md`) — brand, page structure, data
+rules, Gemini model, secrets, QA, and live URLs. Deployment follows the global
+`streamlit-client-release` skill (`C:\Users\TOSHIBA\.claude\skills\
+streamlit-client-release\SKILL.md`).
+
 ## Data workflow — real, one-time, offline
 
 - **The app never scrapes.** `scripts/import_osm_leads.py` queries the Overpass
