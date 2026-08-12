@@ -17,7 +17,7 @@ jobs:
           cache: pip
 
       - name: Install dependencies
-        run: pip install -r requirements.txt pyright
+        run: pip install -r requirements.txt pyright pytest
 
       - name: Point pyright at CI environment
         run: python -c "import json; json.dump({}, open('pyrightconfig.json','w'))"
