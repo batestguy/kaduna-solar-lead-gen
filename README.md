@@ -7,10 +7,7 @@ CSV export for your sales rep.
 **Built with Streamlit** · Data: OpenStreetMap (ODbL) · Runs fully offline at
 runtime — no live scraping.
 
-<!--
-  Live URL placeholder — add after the Streamlit Cloud deploy:
-  🔗 **Live demo:** <https://your-app.streamlit.app>
--->
+🔗 **Live demo:** https://kaduna-solar-lead-ge-y3wljh2pqvkadljhlytgkg.streamlit.app
 
 ## What it does
 
