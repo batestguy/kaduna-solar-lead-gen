@@ -1,0 +1,51 @@
+id,name,address,phone,category,description,lat,lng
+1,Alpha Chemicom Ltd,"6, Yoruba Road, Kaduna, Kaduna",2348037881278,Office,"Office with IT, lighting and air conditioning load. Source: OpenStreetMap.",10.509775,7.424204
+2,Maneks Hospital,"Makera Main Road, Makera, Kaduna",2348033496433,Hospital,"Hospital with round-the-clock, power-critical equipment. Source: OpenStreetMap.",10.467788,7.413658
+3,Epsilon Specialist Hospital,"Plot 18, Gongola road, off Chalawa Cresent, Barnawa, Kaduna",2348069432297,Hospital,"Hospital with round-the-clock, power-critical equipment. Source: OpenStreetMap.",10.484185,7.424527
+4,The Tea Place By Jsen Delights,"37B Square, Isa Kaita Road, Kaduna, Kaduna",2349042698816,Restaurant,"Restaurant with refrigeration, cooking and cooling load. Web: https://jsendelights.com. Source: OpenStreetMap.",10.548174,7.452166
+5,Stonetech,"37B Square, Isa Kaita Road, Kaduna, Kaduna",2347019971007,Office,"Office with IT, lighting and air conditioning load. Web: https://stonetechsquare.com. Source: OpenStreetMap.",10.548069,7.452444
+6,Stone Pos,"37B Square, Isa Kaita Road, Kaduna, Kaduna",2347011003262,Office,"Office with IT, lighting and air conditioning load. Web: https://stonepos.net. Source: OpenStreetMap.",10.54817,7.452621
+7,Stonetech Host,"37B Square, Isa Kaita Road, Kaduna, Kaduna",2347011003262,Office,"Office with IT, lighting and air conditioning load. Web: https://stonetechhost.com. Source: OpenStreetMap.",10.548083,7.452674
+8,Dankoli Logistics,"37B Square, Isa Kaita Road, Kaduna, Kaduna",2349046417881,Office,"Office with IT, lighting and air conditioning load. Web: https://dankoli.com. Source: OpenStreetMap.",10.548243,7.452295
+9,Mafzee Collection And Spa,"Mando Road, kaduna, Kaduna",2348023730515,Shop,Retail business with lighting and cooling demand. Source: OpenStreetMap.,10.58835,7.433258
+10,Hamdala,"26, Muhammadu Buhari Way, Kaduna, Kaduna",234622454407,Hotel,"Hotel with air conditioning, water pumps and 24-hour reception load. Web: http://www.hamdalahotelkad.com. Source: OpenStreetMap.",10.53037,7.44278
+11,Haske Eye Specialist Hospital,"16, MUSA SHEHU CLOSE, Kawo, Kaduna",2349051445656,Hospital,"Hospital with round-the-clock, power-critical equipment. Source: OpenStreetMap.",10.583924,7.459478
+12,Command Guest House,"10, Muhammadu Buhari Way / Waff Road, Kaduna, Kaduna",,Hotel,"Hotel with air conditioning, water pumps and 24-hour reception load. Source: OpenStreetMap.",10.529145,7.433357
+13,Aso Motel,"14, Muhammadu Buhari Way, Kaduna, Kaduna",,Hotel,"Hotel with air conditioning, water pumps and 24-hour reception load. Source: OpenStreetMap.",10.529133,7.43534
+14,Ostrich Bakery,"37B Square, Isa Kaita Road, Kaduna, Kaduna",,Bakery,Bakery with ovens and mixing equipment. Source: OpenStreetMap.,10.54837,7.452146
+15,Food Planet,"Independence Way, Kaduna",,Restaurant,"Restaurant with refrigeration, cooking and cooling load. Source: OpenStreetMap.",10.516441,7.440354
+16,Access Hotel,"Constitution Road, Kabala, Kaduna",,Hotel,"Hotel with air conditioning, water pumps and 24-hour reception load. Source: OpenStreetMap.",10.502385,7.435731
+17,Shagon Buba,"Maiduguri Road, Kaduna",,Supermarket,"Supermarket with freezers, cold display and air conditioning. Source: OpenStreetMap.",10.507801,7.433322
+18,Zuman Pharmacy,"Maiduguri Road, Kaduna",,Pharmacy,Pharmacy with cold-chain medicine storage. Source: OpenStreetMap.,10.507737,7.43352
+19,Abdullahi Mai Littattafai,"No 10, Maiduguri Road, Kaduna",,Bookstore,Retail store with lighting and fans. Source: OpenStreetMap.,10.507988,7.433316
+20,Station Market,"1, Junction Road off Aliyu Makama Road, Kaduna",,Greengrocer,Fresh produce store with cold storage needs. Source: OpenStreetMap.,10.494057,7.418245
+21,Queen Amina College,"Kachia Road, Kaduna",,School,"School with computer lab, fans and lighting. Source: OpenStreetMap.",10.476237,7.421158
+22,Dambo Sixth Form College,"Kachia Road, Kaduna",,School,"School with computer lab, fans and lighting. Source: OpenStreetMap.",10.480374,7.419441
+23,Patmo Engineering,"1, Mozambique Cresct, Kaduna",,Office,"Office with IT, lighting and air conditioning load. Source: OpenStreetMap.",10.472649,7.430997
+24,Crocodile Hotel,"7b, Kanta Road, Kaduna, Kaduna",,Hotel,"Hotel with air conditioning, water pumps and 24-hour reception load. Source: OpenStreetMap.",10.528055,7.433728
+25,Dialogue Pharmacy,"Isa Kaita Road, Unguwar Sarki, Kaduna",,Pharmacy,Pharmacy with cold-chain medicine storage. Source: OpenStreetMap.,10.544906,7.446891
+26,Al-Muhibbah Islamic Academy,"Isyaku road, hayin naiya, Kaduna",,School,"School with computer lab, fans and lighting. Source: OpenStreetMap.",10.590636,7.473869
+27,Jerusaves Pharmacy & Lab,"92 Sabon Tasha, Kachia Road, Kaduna",,Pharmacy,Pharmacy with cold-chain medicine storage. Source: OpenStreetMap.,10.45005,7.458668
+28,Fina White Hotels,"Junction Road, Dadi Riba, Kaduna",,Hotel,"Hotel with air conditioning, water pumps and 24-hour reception load. Brand: Fina. Source: OpenStreetMap.",10.503523,7.426488
+29,Tawakalitu Restaurant,"5, Jema'a Road, Kaduna",,Restaurant,"Restaurant with refrigeration, cooking and cooling load. Source: OpenStreetMap.",10.505807,7.43241
+30,Jumia Delivery Service,"Kachia Road, Kaduna",,Office,"Office with IT, lighting and air conditioning load. Source: OpenStreetMap.",10.496788,7.419589
+31,Dmalan Computers,"Maiduguri Road, Kaduna North, Kaduna",,Office,"Office with IT, lighting and air conditioning load. Source: OpenStreetMap.",10.507936,7.433329
+32,M-Xavi,"Abeokuta Street, Kaduna North, Kaduna",,Shop,Retail business with lighting and cooling demand. Source: OpenStreetMap.,10.511036,7.433048
+33,A. A. Rano Filling Station,"Kaduna-Jos Highway, Kaduna",,Fuel Station,"Fuel station running pumps, lighting and compressors. Source: OpenStreetMap.",10.594286,7.45034
+34,Giwa Hospital,"Ahmadu Bello Way, Unguwar Shanu, Kaduna",,Hospital,"Hospital with round-the-clock, power-critical equipment. Source: OpenStreetMap.",10.54309,7.433136
+35,Yusuf Dantsoho,"Enugu Road, Sabon Gari South, Kaduna",,Hospital,"Hospital with round-the-clock, power-critical equipment. Source: OpenStreetMap.",10.5202,7.416254
+36,Jodeb Hospital,"Yoruba Road, Sardauna, Kaduna",,Hospital,"Hospital with round-the-clock, power-critical equipment. Source: OpenStreetMap.",10.509897,7.427612
+37,West Point,"Muri Road, Dadi Riba, Kaduna",,Restaurant,"Restaurant with refrigeration, cooking and cooling load. Source: OpenStreetMap.",10.505088,7.430781
+38,One Nigeria Hotel,"Muri Road, Kaduna",,Hotel,"Hotel with air conditioning, water pumps and 24-hour reception load. Source: OpenStreetMap.",10.504744,7.430455
+39,Unguwar Shanu Phc,"Unguwar Shanu, Kaduna North, Kaduna",,Clinic,"Clinic with lighting, fridges and diagnostic equipment. Source: OpenStreetMap.",10.546605,7.437862
+40,"General Hospital, Sabon Tasha","Kachia Road, Sabon Tasha, Kaduna",,Clinic,"Clinic with lighting, fridges and diagnostic equipment. Source: OpenStreetMap.",10.450696,7.468214
+41,Muffins & Brownies,"Isa Kaita Road, Kaduna",,Restaurant,"Restaurant with refrigeration, cooking and cooling load. Source: OpenStreetMap.",10.54563,7.450382
+42,Oxford Hospital,"38, Air Force-Samaru Road, Makera, Kaduna",,Hospital,"Hospital with round-the-clock, power-critical equipment. Source: OpenStreetMap.",10.467976,7.408227
+43,Digibizng,"Power Plant Road, Agwa Extension, New Kudenda Layout, Kaduna, Kaduna",,Amenity,Business with daily commercial power needs. Source: OpenStreetMap.,10.461084,7.384033
+44,Maimuna Gwarzo,"2, Chanchangi Road Rigasa, Kaduna, Kaduna",,School,"School with computer lab, fans and lighting. Source: OpenStreetMap.",10.524997,7.407857
+45,Kaedco,"Ahmadu Bello Way, Kaduna",,Office,"Office with IT, lighting and air conditioning load. Source: OpenStreetMap.",10.529768,7.429004
+46,Gss Doka Boys School,"Lagos Street, Dadi Riba, Kaduna",,School,"School with computer lab, fans and lighting. Source: OpenStreetMap.",10.504014,7.429139
+47,Chanchangi Airlines Guesthouse,"5/6 B, Kachia Road, Kaduna",,Industrial,Industrial facility with heavy machinery demand. Source: OpenStreetMap.,10.473263,7.420839
+48,National Ear Care Center,"Golf Course Road, Kaduna North, Kaduna",,Hospital,"Hospital with round-the-clock, power-critical equipment. Source: OpenStreetMap.",10.519269,7.441369
+49,44 Nigerian Army Reference Hospital,"Sokoto Road, Tudun Nupawa, Kaduna",,Hospital,"Hospital with round-the-clock, power-critical equipment. Source: OpenStreetMap.",10.53375,7.420893
+50,Alkali Stores,"Alkali Road, Kaduna",,Department Store,Department store with high lighting and cooling load. Source: OpenStreetMap.,10.537279,7.441957

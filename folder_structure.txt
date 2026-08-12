@@ -1,0 +1,21 @@
+Kaduna Solar Lead Gen — Folder Structure
+========================================
+
+D:\AppForPowerKD\
+│
+├── app.py                    # Entry point. Initializes session state, sidebar nav & branding.
+├── data_layer.py             # CSV loading, band assignment, engineered columns, Gemini integration.
+├── data\
+│   └── kaduna_leads.csv      # Source of truth: exactly 50 rows. NEVER modified at runtime.
+│
+├── pages\
+│   ├── 1_Scraper.py          # Theatrical progress bar + 3 metric cards + "Proceed to Map".
+│   ├── 2_Map.py              # Folium map + st.data_editor selection panel.
+│   └── 3_Finance_Hub.py      # Pitches, diesel-vs-solar chart, advisory, CSV export.
+│
+├── folder_structure.txt      # This file.
+├── data_dictionary.md        # Column-by-column data dictionary.
+├── pyrightconfig.json        # Points LSP at the appdev-conda interpreter.
+├── AGENTS.md                 # Agent instructions for this workspace.
+├── ENVIRONMENTS.md           # Machine conda/R environment reference.
+└── document details.txt      # Authoritative build spec. Do not deviate.

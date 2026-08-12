@@ -1,0 +1,26 @@
+{
+  "target_rows": 50,
+  "real_osm_rows": 50,
+  "demo_fallback_rows": 0,
+  "imported_at": "2026-08-12T01:48:33.895645+00:00",
+  "source": "OpenStreetMap / Overpass API",
+  "license": "ODbL",
+  "attribution": "OpenStreetMap contributors",
+  "bbox": [
+    10.4,
+    7.3,
+    10.65,
+    7.55
+  ],
+  "schema": [
+    "id",
+    "name",
+    "address",
+    "phone",
+    "category",
+    "description",
+    "lat",
+    "lng"
+  ],
+  "note": "Streamlit app never scrapes at runtime; this file is frozen input."
+}

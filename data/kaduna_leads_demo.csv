@@ -1,0 +1,51 @@
+id,name,address,phone,category,description,lat,lng
+1,Kaduna Steel Fabricators,12 Ahmadu Bello Way,08031112221,Manufacturing,Steel fabrication and welding shop running heavy machinery 10 hours daily,10.5231,7.4388
+2,Savannah Agro Foods,Plot 5 Zaria Road,08031223344,Food Processing,Agro-processing plant grinding and milling grain daily,10.5503,7.4412
+3,Arewa Textile Mills,3 Sultan Road,08165552233,Manufacturing,Textile weaving and dyeing factory,10.5301,7.4512
+4,Kaduna Cold Chain Hub,45 Nnamdi Azikiwe Expressway,07030001122,Cold Storage,Central cold storage warehouse for perishables,10.5102,7.4390
+5,Cedar City Cold Room,21 Ibrahim Taiwo Road,08132221133,Cold Storage,Cold room facility for meat and fish traders,10.5156,7.4444
+6,Royal Crown Hotel,2 Yakubu Gowon Way,09024445566,Hotel,Hotel with conference hall running AC and water pumps all day,10.5210,7.4321
+7,Northern Frozen Foods,8 Kachia Road,08036667788,Food Processing,Frozen food production line with blast freezers,10.4912,7.4110
+8,Arewa Grand Hotel,10 Nnamdi Azikiwe Expressway,07034445566,Hotel,Full-service hotel with restaurant and laundry,10.5110,7.4270
+9,Victory Specialist Hospital,15 Kaduna Refinery Road,08137778899,Hospital,Specialist hospital running 24-hour power dependent equipment,10.5300,7.4622
+10,Kaduna Family Hospital,9 Bida Road,09025556677,Hospital,General hospital with round-the-clock operations,10.5177,7.4533
+11,Sweetwater Bottling Co,18 Kashim Ibrahim Road,08038889900,Beverage,Bottling and packaging plant for soft drinks,10.5264,7.4388
+12,Kaduna Garment Factory,11 Ahmadu Bello Way,07036667788,Manufacturing,Industrial garment sewing and finishing unit,10.5255,7.4401
+13,Asa Sachet Water Plant,7 Kachia Road,08139990011,Water Production,Sachet water production and packaging plant,10.4930,7.4155
+14,Zaria Road Block Makers,60 Zaria Road,08030001122,Manufacturing,Concrete block and paving stone production yard,10.5560,7.4488
+15,Northern Agro Processing Ltd,27 Kachia Road,07032223344,Food Processing,Grain milling and agro processing facility,10.4888,7.4130
+16,Cedar Plaza Cold Store,14 Ahmadu Bello Way,08134445566,Cold Storage,Cold storage annex for food wholesalers,10.5240,7.4399
+17,Mama Bola Restaurant,23 Yakubu Gowon Way,08037778899,Restaurant,Bustling restaurant cooking with gas and electric ovens 6 hours daily,10.5190,7.4330
+18,Taste of Kaduna Eatery,5 Ali Akilu Road,07031112233,Restaurant,Eatery serving breakfast and lunch daily,10.5200,7.4366
+19,Spice Garden Restaurant,12 Ibrahim Taiwo Road,08135556677,Restaurant,Restaurant with fridges freezers and AC seating,10.5140,7.4460
+20,Kilimanjaro Grill House,19 Kawo Road,09024443322,Restaurant,Grill restaurant with electric grills and cold storage,10.5420,7.4500
+21,Alheri Pharmacy,6 Sultan Road,08036667711,Pharmacy,Pharmacy with cold-chain medicine fridges,10.5310,7.4520
+22,LifeSpring Pharmacy,17 Nnamdi Azikiwe Expressway,07038889900,Pharmacy,Community pharmacy with vaccine cold storage,10.5122,7.4288
+23,Graceland Comprehensive School,30 Sardauna Crescent,08132221144,School,School with computer lab fans and water pumps,10.5380,7.4366
+24,Al-Hikma Academy,4 Constitution Road,09025556688,School,Private school running evening coaching classes,10.5235,7.4433
+25,Golden Crust Bakery,33 Ibrahim Taiwo Road,08034445566,Bakery,Commercial bakery with ovens running 6 hours daily,10.5160,7.4448
+26,Sunrise Bakery,2 Ahmadu Bello Way,07037778800,Bakery,Bakery producing bread and pastries,10.5268,7.4377
+27,FreshMart Supermarket,15 Kawo Road,08139991122,Supermarket,Supermarket with freezer aisles and AC,10.5415,7.4490
+28,Unity Supermarket,28 Sardauna Crescent,08031119900,Supermarket,Neighborhood supermarket with cold display units,10.5370,7.4355
+29,AutoCare Workshop,41 Kachia Road,07033334455,Auto Repair,Vehicle repair workshop with compressors and welding,10.4905,7.4120
+30,Kano Road Auto Repairs,55 Zaria Road,08136667788,Auto Repair,Auto repair garage running tools 8 hours daily,10.5540,7.4470
+31,Glow and Grace Salon,9 Bida Road,09024445577,Salon,Beauty salon with dryers and water heaters,10.5188,7.4540
+32,Diva Beauty Salon,24 Ali Akilu Road,08035556677,Salon,Salon and spa with styling equipment,10.5212,7.4370
+33,CleanRite Laundry,13 Nnamdi Azikiwe Expressway,07034445511,Laundry,Commercial laundry with washers dryers and irons,10.5118,7.4299
+34,CityPrint Press,8 Constitution Road,08132229900,Printing,Printing press with digital printers and binding,10.5244,7.4420
+35,Cedarview Guest House,18 Sardauna Crescent,09025556699,Guest House,Guest house with AC rooms and kitchen equipment,10.5390,7.4377
+36,Arewa Tailoring and Laundry,7 Kawo Road,08037778811,Tailoring,Clothing workshop with laundry machines,10.5425,7.4505
+37,Nanas Phone Repair,26 Ahmadu Bello Way,,Phone Repair,Mobile phone repair kiosk,10.5270,7.4390
+38,G-Tech Gadget Repairs,3 Ali Akilu Road,07035556688,Phone Repair,Gadget and phone repair shop,10.5205,7.4360
+39,Kulu Boutique,14 Sardauna Crescent,08134443322,Fashion,Fashion boutique selling ladies wear,10.5385,7.4368
+40,House of Fabrics,35 Ibrahim Taiwo Road,09023334455,Fashion,Fabric and tailoring supplies store,10.5162,7.4455
+41,Mariam Fashion House,11 Sultan Road,08031114455,Tailoring,Bespoke tailoring and alterations shop,10.5305,7.4525
+42,Stitch Perfect Tailoring,20 Zaria Road,07032224455,Tailoring,Small tailoring shop with electric irons,10.5520,7.4460
+43,Corner Kiosk Store,5 Kachia Road,08135554466,Retail Kiosk,Small corner kiosk selling provisions,10.4940,7.4160
+44,Maimunas Corner Shop,16 Bida Road,,Retail Kiosk,Neighborhood provision shop,10.5195,7.4538
+45,Balas Provisions,29 Sardauna Crescent,09024445588,Retail Kiosk,Provision store for household goods,10.5395,7.4380
+46,Dan Maraya Bookstore,6 Kashim Ibrahim Road,08036667799,Bookstore,Bookshop with lighting and fans,10.5260,7.4395
+47,Kings Barber Shop,21 Kawo Road,07038887799,Barber Shop,Barbershop with clippers and fans,10.5428,7.4502
+48,Modern Barber Shop,2 Constitution Road,08134443355,Barber Shop,Barber shop with grooming appliances,10.5238,7.4430
+49,Fati Accessories,10 Ahmadu Bello Way,09025556688,Accessories,Phone accessories and gadget retail stall,10.5274,7.4385
+50,Yunusa Battery Shop,58 Zaria Road,,Accessories,Battery and electrical accessories shop,10.5550,7.4475

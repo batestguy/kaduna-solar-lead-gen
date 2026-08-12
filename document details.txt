@@ -1,0 +1,137 @@
+Revised System Design Document: "Kaduna Solar Lead Gen"
+1. Executive Summary
+This is a 3-page Streamlit Proof-of-Concept (MVP) designed to sell solar installation services to Kaduna State businesses.
+Critical Rule: This is a simulator. Data is pre-loaded via CSV. The "Scraper" is purely theatrical (UI progress bar). The value proposition is the AI-generated pitch + the visual cost comparison.
+
+2. The Hardened Data Pipeline (The "Source of Truth")
+The agent must create a data/kaduna_leads.csv with exactly 50 rows.
+
+Data Dictionary (Strict Columns):
+id, name, address, phone (allow nulls), category, description, lat, lng.
+
+Upon loading, the app must immediately compute and append these 3 engineered columns (do NOT save these back to the original CSV; keep them in the DataFrame memory):
+
+assigned_band: Mapped via Keyword Logic (see Section 4).
+
+est_monthly_fuel: Simplified hardcoded logic for demo consistency.
+
+If assigned_band == "A" → ₦450,000 (Heavy 10hrs daily usage).
+
+If assigned_band == "B" → ₦200,000 (Medium 6hrs usage).
+
+If assigned_band == "D" → ₦50,000 (Light 2hrs usage).
+(Agent Note: Use exact integers. This ensures the chart always shows a massive, visually compelling gap between diesel and solar).
+
+generated_pitch: Null initially. Populated on Page 3.
+
+3. Strict Session State Keys (For Page-to-Page Communication)
+To prevent bugs, the agent must initialize these keys in app.py at the very start:
+
+python
+if "full_df" not in st.session_state:
+    st.session_state.full_df = load_and_process_csv()
+if "selected_ids" not in st.session_state:
+    st.session_state.selected_ids = []  # List of ints
+if "pitches_generated" not in st.session_state:
+    st.session_state.pitches_generated = False
+4. Page-by-Page UX Specifications
+Page 1: 1_Scraper.py (The Theatrical Summary)
+
+Action: A large "Scrape Kaduna Businesses" button.
+
+Execution: A for loop updating st.progress over 3 seconds.
+
+Output (Matches Q20): Show 3 large metric cards only:
+
+Total Leads: 50
+Band A (High Priority): Count where assigned_band == "A"
+Band D (Low Priority): Count where assigned_band == "D"
+Navigation: "Proceed to Map →" button.
+
+Page 2: 2_Map.py (The Selection Interface)
+
+Layout: st.columns([2, 1]). Left = Folium Map centered on Kaduna (Lat: 10.5264, Lng: 7.4388). Right = Selection panel.
+
+Selection Logic: Use st.data_editor on st.session_state.full_df. Make the id column hidden, and add a new boolean column called selected with column_config.Checkbox.
+
+Map Sync: Plot pins using folium.Icon. If selected == True, color = "red". Else, color = "green". Include a "Refresh Map" button to redraw pins after toggling boxes.
+
+Action: "Save Selected & Analyze →" button. This filters full_df for selected == True, extracts the ids, saves them to st.session_state.selected_ids, and navigates to Page 3.
+
+Page 3: 3_Finance_Hub.py (The Money Page)
+
+Filter: Load only rows where id is in st.session_state.selected_ids. If fewer than 1 row, show a warning.
+
+Section A (Pitches - Q22):
+
+For each row, if generated_pitch is null, call Gemini Flash.
+
+SMS Prompt: "You are a solar expert in Kaduna. Create a persuasive 160-character SMS for a {category} business named {name} to reduce their ₦{est_monthly_fuel} monthly fuel cost."
+
+Email Fallback (if phone is null): "Write a professional 250-word email to {name} at {address} introducing solar financing options."
+
+Cache the result into the DataFrame immediately.
+
+Section B (The Financial Chart - Q19):
+
+Critical Limit Rule: If the user selected more than 10 businesses, show only the Top 10 by highest est_monthly_fuel on the chart, but display the rest in a table below.
+
+Use Plotly Grouped Vertical Bar Chart.
+
+X-axis: Business Names (truncated to 15 chars if too long).
+
+Y-axis: ₦ (Naira).
+
+Bars: Diesel Cost (est_monthly_fuel) vs Solar Installment (Hardcode solar installment as exactly ₦85,000/month—representing a ₦3M system over 36 months).
+
+Section C (Risk/Traffic Light - Q15):
+
+Add a column called "Advisory".
+
+If est_monthly_fuel > ₦300k → 🟢 "Immediate ROI".
+
+If > ₦100k → 🟡 "Strong Candidate".
+
+If ≤ ₦100k → 🔴 "Educate First".
+
+Section D (Export - Q18):
+
+st.download_button to export the filtered DataFrame with these exact columns: name, address, phone, category, assigned_band, generated_pitch. This allows the sales rep to copy/paste the AI text directly into WhatsApp/Email.
+
+5. Sidebar & Branding (Q16, Q21)
+Use st.sidebar.page_link for navigation (Page 1, 2, 3).
+
+At the bottom of the sidebar, render a static st.markdown block:
+
+Powered by [INSERT COMPANY NAME]
+Kaduna Solar Intel v1.0
+
+6. Agent Guardrails & Environment Setup
+Python Libs: streamlit, pandas, folium, streamlit-folium, plotly, google-generativeai.
+
+API Key: Instruct the agent to read GOOGLE_API_KEY from st.secrets and handle KeyError gracefully with a fallback message: "API Key Missing. Pitches simulated."
+
+Lat/Lng Fallback: If the CSV is missing coordinates for a business, use a random jitter around Kaduna's center to avoid map plotting errors.
+
+The Final, Polished Prompt for Your AI Agent
+Copy and paste the block below directly into your AI Agent (Cursor, Copilot, etc.):
+
+AGENT EXECUTION PROMPT:
+
+"Act as a Senior Full-Stack Python Architect. Based strictly on the specifications above (Kaduna Solar Lead Gen), generate the complete folder structure and high-level code architecture for this Streamlit app.
+
+Step 1: Before writing any code, output a folder_structure.txt and a detailed data_dictionary.md explaining every column.
+
+Step 2: Implement the code :
+
+Hardcode the diesel cost logic exactly as specified (₦450k, ₦200k, ₦50k).
+
+Ensure the grouped bar chart uses Plotly and caps visible bars at 10 to maintain UI cleanliness.
+
+Use st.data_editor for selections on Page 2—do NOT use a loop of st.checkbox.
+
+Implement the Gemini prompt templates verbatim (SMS under 160 chars; Email over 200 words).
+
+Include the sidebar branding at the bottom.
+
+Do not deviate from the page structure (Scraper -> Map -> Finance Hub). Ensure all session state keys match the names defined in this document."

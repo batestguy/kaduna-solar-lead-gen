@@ -1,0 +1,32 @@
+name: QA
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  qa:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt pyright
+
+      - name: Point pyright at CI environment
+        run: python -c "import json; json.dump({}, open('pyrightconfig.json','w'))"
+
+      - name: Validate leads
+        run: python scripts/validate_leads.py
+
+      - name: Tests
+        run: pytest -q
+
+      - name: Type check
+        run: pyright .

@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test / tooling caches
+.pytest_cache/
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+# Streamlit secrets — NEVER commit
+.streamlit/secrets.toml
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Local editor / OS noise
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Runtime exports & screenshots (client deliverables)
+*.csv
+!data/kaduna_leads.csv
+!data/kaduna_leads_demo.csv
+!data/kaduna_leads_provenance.csv
+
+# Browser-test artifacts
+.playwright-mcp/

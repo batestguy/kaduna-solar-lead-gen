@@ -1,0 +1,51 @@
+id,name,osm_id,source_type,osm_category,imported_at
+1,Alpha Chemicom Ltd,node/2758254212,osm,company,2026-08-12T01:48:33.895645+00:00
+2,Maneks Hospital,node/7516064785,osm,hospital,2026-08-12T01:48:33.895645+00:00
+3,Epsilon Specialist Hospital,node/7516081485,osm,hospital,2026-08-12T01:48:33.895645+00:00
+4,The Tea Place By Jsen Delights,node/11580587586,osm,cafe,2026-08-12T01:48:33.895645+00:00
+5,Stonetech,node/11580587587,osm,it,2026-08-12T01:48:33.895645+00:00
+6,Stone Pos,node/11580709895,osm,it,2026-08-12T01:48:33.895645+00:00
+7,Stonetech Host,node/11580709897,osm,it,2026-08-12T01:48:33.895645+00:00
+8,Dankoli Logistics,node/11580715929,osm,it,2026-08-12T01:48:33.895645+00:00
+9,Mafzee Collection And Spa,node/12810997012,osm,beauty,2026-08-12T01:48:33.895645+00:00
+10,Hamdala,way/38943048,osm,hotel,2026-08-12T01:48:33.895645+00:00
+11,Haske Eye Specialist Hospital,way/795544688,osm,hospital,2026-08-12T01:48:33.895645+00:00
+12,Command Guest House,node/553112133,osm,hotel,2026-08-12T01:48:33.895645+00:00
+13,Aso Motel,node/559427757,osm,hotel,2026-08-12T01:48:33.895645+00:00
+14,Ostrich Bakery,node/559767929,osm,bakery,2026-08-12T01:48:33.895645+00:00
+15,Food Planet,node/560941625,osm,fast_food,2026-08-12T01:48:33.895645+00:00
+16,Access Hotel,node/1191103906,osm,hotel,2026-08-12T01:48:33.895645+00:00
+17,Shagon Buba,node/1754869251,osm,supermarket,2026-08-12T01:48:33.895645+00:00
+18,Zuman Pharmacy,node/1754869254,osm,pharmacy,2026-08-12T01:48:33.895645+00:00
+19,Abdullahi Mai Littattafai,node/1880774249,osm,books,2026-08-12T01:48:33.895645+00:00
+20,Station Market,node/1880785903,osm,greengrocer,2026-08-12T01:48:33.895645+00:00
+21,Queen Amina College,node/1880793618,osm,school,2026-08-12T01:48:33.895645+00:00
+22,Dambo Sixth Form College,node/1880797811,osm,school,2026-08-12T01:48:33.895645+00:00
+23,Patmo Engineering,node/2524961130,osm,telecommunication,2026-08-12T01:48:33.895645+00:00
+24,Crocodile Hotel,node/2911345759,osm,hotel,2026-08-12T01:48:33.895645+00:00
+25,Dialogue Pharmacy,node/4912505223,osm,pharmacy,2026-08-12T01:48:33.895645+00:00
+26,Al-Muhibbah Islamic Academy,node/6131026290,osm,school,2026-08-12T01:48:33.895645+00:00
+27,Jerusaves Pharmacy & Lab,node/6139347686,osm,pharmacy,2026-08-12T01:48:33.895645+00:00
+28,Fina White Hotels,node/6140177285,osm,hotel,2026-08-12T01:48:33.895645+00:00
+29,Tawakalitu Restaurant,node/6181124287,osm,restaurant,2026-08-12T01:48:33.895645+00:00
+30,Jumia Delivery Service,node/6181124585,osm,company,2026-08-12T01:48:33.895645+00:00
+31,Dmalan Computers,node/7154077381,osm,it,2026-08-12T01:48:33.895645+00:00
+32,M-Xavi,node/7154077382,osm,tailor,2026-08-12T01:48:33.895645+00:00
+33,A. A. Rano Filling Station,node/7232656385,osm,fuel,2026-08-12T01:48:33.895645+00:00
+34,Giwa Hospital,node/7427962286,osm,hospital,2026-08-12T01:48:33.895645+00:00
+35,Yusuf Dantsoho,node/7427970785,osm,hospital,2026-08-12T01:48:33.895645+00:00
+36,Jodeb Hospital,node/7427978013,osm,hospital,2026-08-12T01:48:33.895645+00:00
+37,West Point,node/7428702738,osm,restaurant,2026-08-12T01:48:33.895645+00:00
+38,One Nigeria Hotel,node/7428702739,osm,hotel,2026-08-12T01:48:33.895645+00:00
+39,Unguwar Shanu Phc,node/7512814285,osm,clinic,2026-08-12T01:48:33.895645+00:00
+40,"General Hospital, Sabon Tasha",node/7516064787,osm,clinic,2026-08-12T01:48:33.895645+00:00
+41,Muffins & Brownies,node/10976924505,osm,fast_food,2026-08-12T01:48:33.895645+00:00
+42,Oxford Hospital,node/12048404444,osm,hospital,2026-08-12T01:48:33.895645+00:00
+43,Digibizng,node/12990875159,osm,internet_cafe,2026-08-12T01:48:33.895645+00:00
+44,Maimuna Gwarzo,node/13917533151,osm,school,2026-08-12T01:48:33.895645+00:00
+45,Kaedco,way/39551641,osm,company,2026-08-12T01:48:33.895645+00:00
+46,Gss Doka Boys School,way/43566237,osm,school,2026-08-12T01:48:33.895645+00:00
+47,Chanchangi Airlines Guesthouse,way/44660139,osm,industrial,2026-08-12T01:48:33.895645+00:00
+48,National Ear Care Center,way/479666487,osm,hospital,2026-08-12T01:48:33.895645+00:00
+49,44 Nigerian Army Reference Hospital,way/479668235,osm,hospital,2026-08-12T01:48:33.895645+00:00
+50,Alkali Stores,way/500134886,osm,department_store,2026-08-12T01:48:33.895645+00:00
