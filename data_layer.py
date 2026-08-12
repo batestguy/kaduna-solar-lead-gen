@@ -160,7 +160,7 @@ def generate_pitch(row):
         import google.generativeai as genai  # type: ignore
 
         genai.configure(api_key=api_key)  # type: ignore
-        model = genai.GenerativeModel("gemini-2.0-flash")  # type: ignore
+        model = genai.GenerativeModel("gemini-2.5-flash")  # type: ignore
         if pd.notna(row["phone"]) and str(row["phone"]).strip():
             response = model.generate_content(sms_prompt(row))
             pitch = response.text.strip()
