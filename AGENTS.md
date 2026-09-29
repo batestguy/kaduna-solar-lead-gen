@@ -63,6 +63,9 @@ streamlit-client-release\SKILL.md`).
   google-generativeai 0.8.6. Never install into `base`.
 - Run with `streamlit run app.py`, not `python app.py`.
 - `GOOGLE_API_KEY` via `st.secrets`; fallback "API Key Missing. Pitches simulated."
+- Optional `CARTO_API_KEY` via `st.secrets` restores the CARTO Voyager basemap;
+  without it the Lead Map falls back to keyless OpenStreetMap tiles (CARTO
+  retired keyless basemap access and watermarks keyless requests).
 - Hero image is `assets/solar-hero.jpg` (CC0, credited in `assets/ATTRIBUTIONS.md`).
 
 ## QA

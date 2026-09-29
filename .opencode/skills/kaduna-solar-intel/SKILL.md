@@ -57,6 +57,10 @@ this skill is the same knowledge in loadable form.
 - Model: **`gemini-2.5-flash`** (2.0-flash is retired — 404). Check model
   availability before changing it.
 - Key: `st.secrets["GOOGLE_API_KEY"]`; fallback "API Key Missing. Pitches simulated."
+- Map: CARTO retired keyless basemaps ("API KEY REQUIRED" watermark). The Lead
+  Map reads optional `st.secrets["CARTO_API_KEY"]` (free from
+  carto.com/basemaps/apikey) for the pastel Voyager style, and falls back to
+  keyless standard OSM tiles when absent — never hardcode a key.
 - Never commit `.streamlit/secrets.toml` (gitignored). If a key was exposed,
   revoke + regenerate, then add only via Streamlit Cloud Secrets.
 
