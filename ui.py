@@ -86,7 +86,7 @@ GLOBAL_CSS = """
   /* KPI grid — custom cards, full values always visible */
   div.kpi-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
     gap: 0.8rem;
     margin-bottom: 1.2rem;
   }
@@ -101,7 +101,8 @@ GLOBAL_CSS = """
   div.kpi-card .kpi-label { color: var(--muted); font-size: 0.8rem; font-weight: 600; }
   div.kpi-card .kpi-value {
     color: #B45309; font-weight: 800;
-    font-size: clamp(1.35rem, 2vw, 1.8rem);
+    font-size: clamp(1.25rem, 2vw, 1.5rem);
+    letter-spacing: -0.01em;
     line-height: 1.2;
     word-break: break-word; overflow-wrap: anywhere;
     margin: 0.2rem 0 0;
