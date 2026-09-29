@@ -22,7 +22,7 @@ streamlit-client-release\SKILL.md`) — see `DEPLOYMENT.md`.
 | 5 | Risk model | In-memory grid-supply + reward fields in `data_layer.py` | Assumptions labelled |
 | 6 | Visual system | `.streamlit/config.toml`, `ui.py`, hero asset | Desktop + mobile render |
 | 7 | Page redesign | Home, Market Scan, Map, Finance Hub | All nav flows work |
-| 8 | Map refinement | `Marker` + `DivIcon` teardrop pins (20×26), band colours, dark ring = selected | All 50 pins render |
+| 8 | Map refinement | `Marker` + `DivIcon` teardrop pins (20×26), band colours, dark ring = selected; tiles: CARTO Voyager via optional `CARTO_API_KEY` secret, else keyless OSM | All 50 pins render, no watermark |
 | 9 | Offline runtime | App reads only frozen files | No network calls at runtime |
 | 10 | Final QA | `pytest`, pyright, browser smoke | Release-ready |
 | 11 | Viewport verification | Browser geometry at 1440/1280/720/719/390 | No overflow/clipping |
@@ -108,7 +108,8 @@ stack vertically below 720px.
 
 ### Finance Hub layout notes
 
-- KPI cards are a custom `div.kpi-grid` (auto-fit `minmax(150px,1fr)`) — never
-  switch back to native `st.metric` or long currency values get clipped.
+- KPI cards are a custom `div.kpi-grid` (auto-fit `minmax(170px,1fr)`) — never
+  switch back to native `st.metric` or long currency values get clipped. The
+  170px track keeps `₦12,700,000` on one line at 1440px.
 - Finance Hub order: snapshot → 3-col decision brief → 2-col charts → 2-col
   pitches → advisory + assumptions → export. Empty state offers a Lead Map CTA.

@@ -42,7 +42,7 @@ streamlit-client-release\SKILL.md`).
 
 - Shared shell lives in `ui.py` (CSS, sidebar, hero, KPI cards). Do not duplicate
   sidebar markup in pages.
-- KPI cards are a custom `div.kpi-grid` (auto-fit `minmax(150px,1fr)`), not native
+- KPI cards are a custom `div.kpi-grid` (auto-fit `minmax(170px,1fr)`), not native
   `st.metric`, so long currency values like `₦12,700,000` always render fully.
   Cards are `(label, value)` or `(label, value, hint)`; native metrics are not used.
 - Page headings are sized with `clamp(1.9rem, 3.2vw, 2.5rem)` against
