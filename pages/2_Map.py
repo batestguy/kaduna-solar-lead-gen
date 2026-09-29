@@ -65,6 +65,31 @@ with col_select:
         st.session_state.selected_ids = selected
         st.switch_page("pages/3_Finance_Hub.py")
 
+def carto_tiles():
+    """CARTO Voyager tiles (pastel style) when CARTO_API_KEY is configured;
+    falls back to keyless OpenStreetMap tiles otherwise. CARTO retired free
+    keyless basemap access and watermarks keyless requests with
+    "API KEY REQUIRED" — see https://carto.com/basemaps/apikey/."""
+    try:
+        api_key = st.secrets["CARTO_API_KEY"]
+    except Exception:
+        api_key = None
+    if api_key:
+        tiles = (
+            "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/"
+            f"{{z}}/{{x}}/{{y}}{{r}}.png?apiKey={api_key}"
+        )
+        return folium.TileLayer(
+            tiles=tiles,
+            attr=(
+                '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> '
+                'contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+            ),
+            name="CARTO Voyager",
+        )
+    return folium.TileLayer(tiles="OpenStreetMap", name="OpenStreetMap")
+
+
 with col_map:
     st.subheader("Kaduna leads")
     st.caption("Coloured by band — amber A · turquoise B · coral D. Selected leads get a dark ring.")
@@ -75,9 +100,9 @@ with col_map:
     m = folium.Map(
         location=[10.5264, 7.4388],
         zoom_start=12,
-        tiles="CartoDB Voyager",
         control_scale=True,
     )
+    carto_tiles().add_to(m)
 
     def pin_icon(color, selected):
         stroke = "#1F2937" if selected else "#FFFFFF"

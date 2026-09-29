@@ -81,11 +81,18 @@ git push -u origin main
 
    ```toml
    GOOGLE_API_KEY = "<your Gemini API key>"
+   CARTO_API_KEY = "<your CARTO basemaps API key>"   # optional
    ```
 
    The app already falls back to *"API Key Missing. Pitches simulated."* when
    the key is absent, so it deploys without it, but pitches are simulated until
    a key is set.
+
+   `CARTO_API_KEY` (free, from https://carto.com/basemaps/apikey/) restores the
+   pastel CARTO Voyager basemap on the Lead Map. CARTO retired keyless basemap
+   access and stamps keyless requests with an "API KEY REQUIRED" watermark.
+   Without the key the Lead Map falls back to standard OpenStreetMap tiles —
+   fully keyless, slightly busier style, no watermark.
 
 7. Streamlit Cloud installs exactly the pins in `requirements.txt` (Python
    version from the cloud's default runtime; see `runtime.txt` if a pin is

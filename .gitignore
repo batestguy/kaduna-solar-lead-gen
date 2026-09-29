@@ -32,3 +32,4 @@ Thumbs.db
 
 # Browser-test artifacts
 .playwright-mcp/
+.playwright-cli/
