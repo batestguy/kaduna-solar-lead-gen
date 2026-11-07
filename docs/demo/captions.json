@@ -1,0 +1,129 @@
+{
+  "audio": {
+    "file": "assets/music/let-the-sun-in.mp3",
+    "cue": "0:14",
+    "fade_in": 1.0,
+    "fade_out": 3.0
+  },
+  "frame": {
+    "width": 1600,
+    "height": 1000,
+    "fps": 30
+  },
+  "duration": 130.28,
+  "take_start": 102.08,
+  "take_valid": true,
+  "captions": [
+    {
+      "id": 1,
+      "start": 0.26,
+      "end": 3.77,
+      "text": "Diesel spend, turned into solar pipeline",
+      "anchor": "bottom-right"
+    },
+    {
+      "id": 2,
+      "start": 3.77,
+      "end": 11.25,
+      "text": "Fifty leads, ₦12.7m diesel every month",
+      "anchor": "bottom-right"
+    },
+    {
+      "id": 3,
+      "start": 11.25,
+      "end": 17.02,
+      "text": "Real OpenStreetMap data, imported once",
+      "anchor": "bottom-right"
+    },
+    {
+      "id": 5,
+      "start": 23.81,
+      "end": 29.61,
+      "text": "One click stages the frozen import",
+      "anchor": "bottom-right"
+    },
+    {
+      "id": 6,
+      "start": 29.61,
+      "end": 37.5,
+      "text": "Twelve heavy users dominate the spend",
+      "anchor": "bottom-right"
+    },
+    {
+      "id": 8,
+      "start": 49.48,
+      "end": 55.96,
+      "text": "Fifty businesses, coloured by diesel band",
+      "anchor": "bottom-left"
+    },
+    {
+      "id": 9,
+      "start": 55.96,
+      "end": 63.2,
+      "text": "Five leads ringed for analysis",
+      "anchor": "bottom-left"
+    },
+    {
+      "id": 10,
+      "start": 63.2,
+      "end": 73.59,
+      "text": "Five selected, ready for analysis",
+      "anchor": "bottom-left"
+    },
+    {
+      "id": 11,
+      "start": 73.59,
+      "end": 81.29,
+      "text": "Portfolio snapshot: spend, saving, payback",
+      "anchor": "bottom-right"
+    },
+    {
+      "id": 12,
+      "start": 81.29,
+      "end": 87.49,
+      "text": "Economics, priority queue, sales motion",
+      "anchor": "bottom-right"
+    },
+    {
+      "id": 13,
+      "start": 87.49,
+      "end": 93.41,
+      "text": "Risk versus reward, bubbles sized by diesel",
+      "anchor": "bottom-right"
+    },
+    {
+      "id": 14,
+      "start": 93.41,
+      "end": 99.36,
+      "text": "Diesel bars dwarf the flat installment",
+      "anchor": "bottom-right"
+    },
+    {
+      "id": 15,
+      "start": 99.36,
+      "end": 108.01,
+      "text": "One ready-to-send pitch per lead",
+      "anchor": "bottom-right"
+    },
+    {
+      "id": 16,
+      "start": 108.01,
+      "end": 115.23,
+      "text": "Advisory flags who to call first",
+      "anchor": "bottom-right"
+    },
+    {
+      "id": 17,
+      "start": 115.23,
+      "end": 122.07,
+      "text": "CSV hand-off for the sales rep",
+      "anchor": "bottom-right"
+    }
+  ],
+  "end_card": {
+    "start": 122.28,
+    "end": 130.28
+  },
+  "pitches": "fallback",
+  "note": "Portfolio and figures are from the live app. Pitches on screen are the app's canned fallback: the Gemini free-tier quota for the configured key returned HTTP 429 during this take. Re-run --stage all once the quota resets."
+}

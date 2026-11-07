@@ -28,6 +28,12 @@ The workflow mirrors how a solar sales team actually works:
 
 ## The walkthrough
 
+[![Demo video: every screen in Sol Searching](docs/demo/01_cover.jpg)](docs/demo/sol_searching_walkthrough.mp4)
+
+▶ **[Watch the 2:10 walkthrough](docs/demo/sol_searching_walkthrough.mp4)** — Home, Market
+Scan, Lead Map and the Finance Hub, with captions for each screen. Music: *Let the Sun In*
+— Atlantic Starr, from 0:14. Rebuild it with `python scripts/build_walkthrough.py --stage all`.
+
 ### Stage 1 · Market Scan
 
 Loads the one-time OpenStreetMap import (50 verified businesses) and stages it

@@ -33,3 +33,9 @@ Thumbs.db
 # Browser-test artifacts
 .playwright-mcp/
 .playwright-cli/
+
+# Walkthrough video build inputs/outputs (song is licensed, never committed)
+assets/music/
+*.mp3
+.walkthrough_tmp/
+.venv-video/
